@@ -521,6 +521,7 @@ StScrollBar {
 
   .popup-menu-content {
     margin: if($variant!='dark', 4px, 3px);
+    background-color: $shell_popup_menu_background_color;
 
     @extend %popup_menu;
   }
@@ -2188,6 +2189,7 @@ $_dash_bottom_margin: 20px;
   min-height: 0;
   margin: 9px;
   padding: 6px;
+  background-color: $shell_notification_background_color;
 
   @extend %popup_menu;
 
@@ -2208,7 +2210,7 @@ $_dash_bottom_margin: 20px;
 
 %popup_menu {
   color: $fg_color;
-  background-color: $shell_popup_menu_background_color;
+  //background-color: $shell_popup_menu_background_color;
   //background-clip: padding-box;
   border: if($variant!='dark', 0, 1px) solid $shell_popup_menu_border_color;
   border-radius: 2px;
@@ -2668,6 +2670,7 @@ $_dash_bottom_margin: 20px;
   .notification,
   .unlock-dialog-notification-source {
     padding: 12px 6px;
+    background-color: $shell_notification_background_color;
     @extend %popup_menu;
 
     StIcon { -st-icon-style: symbolic; }

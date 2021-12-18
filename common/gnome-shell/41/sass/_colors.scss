@@ -114,3 +114,5 @@ $shell_popup_menu_border_color: if($variant!='dark', rgba(black, 0.1), rgba(#1B1
 
 $shell_message_background_color: if($variant != 'dark', #FCFDFD, rgba(black, 0.15));
 $shell_message_border_color: if($variant != 'dark', $entry_border, rgba(black, 0.42));
+
+$shell_notification_background_color: if($variant!='dark', white, #636883);
